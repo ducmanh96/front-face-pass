@@ -6,7 +6,6 @@
     <img class="img" src="@/assets/image.png"/>
 
     <router-link to="/signin"><button click="Signin">Signin</button></router-link>
-    <li></li>
     <router-link to="/signup"><button click="Signup">Signup</button></router-link>
 
   </div>
