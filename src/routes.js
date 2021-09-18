@@ -1,8 +1,6 @@
 import Toppage from '@/components/Header/Toppage'
 import Signup from '@/components/User/Signup'
 import Signin from '@/components/User/Signin'
-import Password from '@/components/User/Password'
-import Password1 from '@/components/User/Password1'
 
 
 import Home from '@/components/Action/Home'
@@ -26,23 +24,14 @@ export const routes = [
       name: 'Signin',
       component: Signin
     },
-    {
-      path: '/password',
-      name: 'Password',
-      component: Password
-    },
-    {
-      path: '/password1',
-      name: 'Password1',
-      component: Password1
-    },
+ 
     {
       path: '/home',
       name: 'Home',
       component: Home
     },
     {
-      path: '/image',
+      path: '/camera',
       name: 'Camera',
       component: Camera
     },

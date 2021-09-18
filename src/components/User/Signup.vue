@@ -4,9 +4,10 @@
     <input type="text" placeholder="Users" v-model="username">
     <input type="mail" placeholder="mail address" v-model="mail">
     <input type="password" placeholder="password" v-model="password">
-    <input type="password" placeholder="Confirm password " v-model="password1">
+    <input type="password" placeholder="password" v-model="password1">
 
-    <button>Account registration</button>
+    <router-link to="/signin"><button click="Signin">Account registration</button></router-link>
+
     <p>Do you have an account? <router-link to="/signin">sign in now!!!!</router-link>
     </p>
   </div>

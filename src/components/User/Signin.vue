@@ -3,7 +3,9 @@
   <div class="signin">
     <h2>Sign in</h2>
     <input type="text" placeholder="mail address" v-model="mail">
-    <p><router-link to="/password"><button>Next</button></router-link></p>
+    <input type="password" placeholder="password" v-model="password">
+
+    <p><router-link to="/home"><button>Signin</button></router-link></p>
   </div>
 </template>
 

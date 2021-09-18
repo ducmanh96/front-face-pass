@@ -2,10 +2,10 @@
 <template>
 
   <div class="home">
-    <h1>{{ msg }}</h1>
-    <router-link to="/"><button click="">Username</button></router-link>
+    <h1> Wecome to <router-link to="/">Username</router-link></h1>
+    
     <p></p>
-    <router-link to="/camera"><button click="Camera">Start Camera</button></router-link>
+    <router-link to="/camera"><button click="Image">Start Camera</button></router-link>
   </div>
 </template>
 <script>
@@ -13,7 +13,7 @@ export default {
   name: 'Camera',
   data () {
     return {
-      msg: 'Wecome to username!Let start!!'
+      
     }
   }
 }
